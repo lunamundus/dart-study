@@ -7,10 +7,10 @@ void main() {
       {"score" : 80}
     ]''';
 
-    var scores = jsonDecode(jsonString);
-    print(scores is List);                // Ture
+  var scores = jsonDecode(jsonString);
+  print(scores is List); // Ture
 
-    var firstScore = scores[0];
-    print(firstScore is Map);             // True
-    print(firstScore['score'] == 40);     // True
+  var firstScore = scores[0];
+  print(firstScore is Map); // True
+  print(firstScore['score'] == 40); // True
 }
