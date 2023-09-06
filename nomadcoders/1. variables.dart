@@ -57,6 +57,16 @@
 // }
 
 // void main() {
+//   String luna = 'luna';
+//   luna = null;
+// }
+
+// void main() {
+//   String? luna = 'luna';
+//   luna = null;
+// }
+
+// void main() {
 //   String? luna = 'luna';
 //   luna = null;
 //   luna?.isNotEmpty;

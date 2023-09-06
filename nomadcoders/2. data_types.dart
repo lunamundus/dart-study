@@ -82,15 +82,28 @@
 //   };
 // }
 
-void main() {
-  List<Map<String, Object>> players = [
-    {
-      'luna': true,
-      'xp': 1.35,
-    },
-    {
-      'lucas': false,
-      'xp': 2.67,
-    },
-  ];
-}
+// void main() {
+//   List<Map<String, Object>> players = [
+//     {
+//       'luna': true,
+//       'xp': 1.35,
+//     },
+//     {
+//       'lucas': false,
+//       'xp': 2.67,
+//     },
+//   ];
+// }
+
+// 2.5 Sets
+// void main() {
+//   var numbers = {1, 2, 3, 4, 5};
+//   Set<int> numbers_2 = {6, 7, 8, 9, 10};
+
+//   numbers.add(1);
+//   numbers.add(1);
+//   numbers.add(1);
+//   numbers.add(1);
+
+//   print(numbers);
+// }
