@@ -186,29 +186,29 @@
 // }
 
 // #4.6 Enums
-enum Team { red, blue }
+// enum Team { red, blue }
 
-class Player {
-  String name;
-  int xp;
-  String team;
+// class Player {
+//   String name;
+//   int xp;
+//   String team;
 
-  Player({
-    required this.name,
-    required this.xp,
-    required this.team,
-  });
+//   Player({
+//     required this.name,
+//     required this.xp,
+//     required this.team,
+//   });
 
-  void sayHello() {
-    print("Hi, my name is $name");
-  }
-}
+//   void sayHello() {
+//     print("Hi, my name is $name");
+//   }
+// }
 
-void main() {
-  var luna = Player(name: 'Luna', xp: 1200, team: 'Blue') // cascade notation
-    ..name = 'luna'
-    ..xp = 12000
-    ..team = 'Red';
+// void main() {
+//   var luna = Player(name: 'Luna', xp: 1200, team: 'Blue') // cascade notation
+//     ..name = 'luna'
+//     ..xp = 12000
+//     ..team = 'Red';
 
-  var exam = Player(name: 'exam', xp: 1000, team: Team.blue);
-}
+//   var exam = Player(name: 'exam', xp: 1000, team: Team.blue);
+// }
