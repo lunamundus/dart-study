@@ -53,8 +53,9 @@
 // void main() {
 //   String? luna = 'luna';
 //   luna = null;
+//
 //   if (luna != null) {
-//     luna.isNotEmpty;
+//     luna.length;
 //   }
 // }
 
@@ -71,7 +72,8 @@
 // void main() {
 //   String? luna = 'luna';
 //   luna = null;
-//   luna?.isNotEmpty;
+
+//   luna?.length;
 // }
 
 // #1.4 Final Variables
