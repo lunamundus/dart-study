@@ -1,5 +1,37 @@
 // #2.0 Basic Data Types
 // void main() {
+//   String name = 'example';
+// }
+
+// void main() {
+//   int age = 27;
+// }
+
+// void main() {
+//   double height = 181.3;
+//   double age = 27;
+
+//   print(age);
+// }
+
+// void main() {
+//   num age = 27;
+//   num height = 181.3;
+
+//   print(age);
+//   print(height);
+
+//   height = 181;
+//   print(height);
+// }
+
+// void main() {
+//   bool tf = true;
+
+//   print(tf);
+// }
+
+// void main() {
 //   String name = 'luna';
 //   bool alive = true;
 //   int age = 12;
@@ -10,6 +42,76 @@
 // }
 
 // #2.1 Lists
+// void main() {
+//   var numbers = [1, 2, 3, 4, 5];
+// }
+
+// void main() {
+//   List<num> numbers = [1, 2, 3, 4, 5];
+// }
+
+// void main() {
+//   var numbers = [
+//     1,
+//     2,
+//     3,
+//     4,
+//     5,
+//   ];
+// }
+
+// void main() {
+//   var numbers = [1, 2, 3, 4, 5];
+//   print(numbers[1]); // 2
+//   print(numbers[0]); // 1
+//   print(numbers[4]); // 5
+// }
+
+// void main() {
+//   var giveMeFive = true;
+//   var numbers = [1, 2, 3, 4];
+
+//   if (giveMeFive) {
+//     numbers.add(5);
+//   }
+// }
+
+// void main() {
+//   var giveMeFive = true;
+//   var numbers = [
+//     1,
+//     2,
+//     3,
+//     4,
+//     if (giveMeFive) 5,
+//   ];
+// }
+
+// void main() {
+//   var oldNumbers = [1, 2, 3, 4, 5];
+//   var newNumbers = [6, 7, 8, 9, 10];
+
+//   for (var number in oldNumbers) {
+//     newNumbers.add(number);
+//   }
+
+//   print(newNumbers); // [6, 7, 8, 9, 10, 1, 2, 3, 4, 5]
+// }
+
+// void main() {
+//   var oldNumbers = [1, 2, 3, 4, 5];
+//   var newNumbers = [
+//     6,
+//     7,
+//     8,
+//     9,
+//     10,
+//     for (var number in oldNumbers) number,
+//   ];
+
+//   print(newNumbers); // [6, 7, 8, 9, 10, 1, 2, 3, 4, 5]
+// }
+
 // void main() {
 //   var giveMeFive = true;
 //   var numbers = [
