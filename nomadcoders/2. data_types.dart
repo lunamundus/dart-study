@@ -177,6 +177,15 @@
 // }
 
 // void main() {
+//   var example = {
+//     1: 'hello',
+//     2: '안녕',
+//     "인사말": "Korean",
+//     "한국어": 2,
+//   };
+// }
+
+// void main() {
 //   Map<int, bool> player = {
 //     1: true,
 //     2: false,
